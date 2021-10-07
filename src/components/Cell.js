@@ -253,5 +253,6 @@ Cell.propTypes = {
   onChangedValue: PropTypes.func.isRequired,
   x: PropTypes.number.isRequired,
   y: PropTypes.number.isRequired,
+  executeFormula: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
-}
+};
